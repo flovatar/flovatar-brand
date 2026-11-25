@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<link rel="alternate" type="text/markdown" href="{{BASE}}/BRAND.md" title="Brand guide (markdown)">
+<link rel="alternate" type="text/plain" href="{{BASE}}/llms.txt" title="llms.txt">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Flovatar">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="Everything you need to create in the Flovatar style, for humans and AI agents.">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="{{BASE}}/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@flovatar">
+<meta name="theme-color" content="#180830">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="{{FONT_HEAD}}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{FONT_BODY}}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{CSS}}">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Flovatar Brand Guide","version":"{{VERSION}}","dateModified":"{{DATE}}","publisher":{"@type":"Organization","name":"Flovatar","url":"https://flovatar.com","logo":"{{BASE}}/assets/logos/flovatar/png/flovatar-mark-color-mix-gradient-square.png"},"encoding":{"@type":"MediaObject","contentUrl":"{{BASE}}/BRAND.md","encodingFormat":"text/markdown"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="/index.html" aria-label="Flovatar brand guide home"><img src="/assets/logos/flovatar/svg/flovatar-logo-horizontal-white.svg" alt="Flovatar" width="150" height="48"><span class="tag">Brand Guide</span></a>
+  <nav class="top-actions" aria-label="Downloads">
+    <button class="btn btn-yellow" id="copy-all" data-fetch="/BRAND.md">Copy for AI agent</button>
+    <a class="btn btn-outline hide-xs" href="/BRAND.md">BRAND.md</a>
+    <a class="btn btn-outline hide-s" href="/llms.txt">llms.txt</a>
+    <button class="btn btn-outline menu-toggle" aria-controls="toc" aria-expanded="false">Contents</button>
+  </nav>
+</header>
+{{HERO}}
+<div class="layout">
+  <nav id="toc" class="toc" aria-label="Contents">
+    <p class="toc-title">Contents</p>
+    <ol>
+{{TOC}}
+    </ol>
+  </nav>
+  <main id="main" class="content">
+{{BODY}}
+    <footer class="foot">
+      <p>Flovatar Brand Guide v{{VERSION}} · art and design by the Flovatar team · <a href="https://flovatar.com">flovatar.com</a> · Built on <a href="https://flow.com">Flow</a></p>
+    </footer>
+  </main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="{{JS}}" defer></script>
+</body>
+</html>

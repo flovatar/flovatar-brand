@@ -1,0 +1,53 @@
+{
+  "_comment": "Example config for tools/prepare-assets.py. Copy to tools/assets.local.json (gitignored) and point every entry at your local copies of the original files. Relative paths resolve against root. A [path, N] value sets the longest side in px.",
+  "root": "/path/to/brand-sources",
+  "flovatar_logos_dir": "logos/flovatar",
+  "social_avatars_glob": "logos/social-avatars/*.png",
+  "brand_icons_glob": "icons/v1/*.png",
+  "site_images_dir": "repos/flovatar-web/public/images",
+  "sportvatar_images_dir": "repos/sportvatar/public/images",
+  "sportvatar_logos_dir": "logos/sportvatar",
+  "sportvatar_icons_glob": "logos/sportvatar-icons/*.png",
+  "flow_badges_glob": "partners/built-on-flow/*/SVG/*.svg",
+  "renders_dir": "renders",
+  "story_images": {
+    "ado-poster.jpg": ["story/poster.png", 1600],
+    "ado-ep1-1-cover.jpg": "story/covers/ep1-1.png",
+    "ado-ep2-cover.jpg": "story/covers/ep2.png",
+    "ado-ep5-cover.jpg": "story/covers/ep5.jpg",
+    "ado-da-vinci.jpg": "story/covers/da-vinci.jpg",
+    "ado-showdown.jpg": "story/covers/showdown.jpg",
+    "ado-testnet.jpg": "story/covers/testnet.jpg",
+    "ado-fl01d-on-the-beach.jpg": "story/covers/fl01d-on-the-beach.jpg",
+    "ado-medici.jpg": "story/covers/medici.jpg"
+  },
+  "story_title_glob": "story/title-cards/*.png",
+  "asteroid_images": {
+    "asteroid-jungle-legendary-castle.jpg": "asteroids/jungle-legendary-castle.jpg",
+    "asteroid-volcano-legendary-stone-fortress.jpg": "asteroids/volcano-legendary-stone-fortress.jpg",
+    "asteroid-rock-castle-epic.jpg": "asteroids/rock-castle-epic.jpg",
+    "asteroid-oasis-common.jpg": "asteroids/oasis-common.jpg",
+    "fub-ecosystem-key-art.jpg": ["asteroids/fub-key-art.jpg", 1600]
+  },
+  "reference_images": {
+    "x-header-3000x1000.jpg": "references/x-header.jpg",
+    "youtube-cover-2560x1440.jpg": "references/youtube-cover.jpg",
+    "linkedin-cover-2256x382.jpg": "references/linkedin-cover.jpg",
+    "flowverse-flovatar-1940x500.jpg": "references/flowverse-flovatar-1940x500.png",
+    "flowverse-flobots-1940x500.jpg": "references/flowverse-flobots-1940x500.png",
+    "flowverse-flovatar-600x600.jpg": "references/flowverse-flovatar-600x600.png",
+    "gaia-homepage-banner-1920x600.jpg": "references/gaia-homepage-banner.jpg",
+    "gaia-card-730x1251.jpg": "references/gaia-card.jpg",
+    "site-share-762x400.jpg": "references/site-share.png",
+    "float-ama-badge-1500x1962.jpg": "references/float-ama-badge.jpg",
+    "show-us-your-bits-jetpack.jpg": "references/show-us-your-bits-jetpack.png",
+    "sportvatar-builder-scene.jpg": "references/sportvatar-builder-scene.png",
+    "pack-v2.png": ["references/pack-v2.png", 800],
+    "dust-explainer-frame.jpg": ["references/dust-explainer-frame.png", 1080]
+  },
+  "v1_page_renders_dir": "references/v1-pages",
+  "reference_pdfs": {
+    "flovatar-brand-guidelines-v1.0-SUPERSEDED.pdf": "references/flovatar-brand-guidelines-v1.0.pdf",
+    "sportvatar-brand-guidelines-v1.0.pdf": "references/sportvatar-brand-guidelines-v1.0.pdf"
+  }
+}

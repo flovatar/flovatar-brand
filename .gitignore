@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# build output (contains licensed webfonts) and private inputs: never commit
+dist/
+dist-private/
+# never commit fonts or design sources
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.ai
+*.psd
+*.indd
+# local source/publish config (machine paths, bucket, endpoint): never commit
+tools/assets.local.json
+scripts/publish.local.env

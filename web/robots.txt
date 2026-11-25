@@ -1,0 +1,6 @@
+# brand.flovatar.com — the Flovatar brand guide. Crawlers and AI agents welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://brand.flovatar.com/sitemap.xml
+# LLM index: https://brand.flovatar.com/llms.txt
